@@ -1,0 +1,30 @@
+<HTML>
+    <head>
+        <script>
+            function validateform(){
+                let x==document.forms["myform"]
+                ["frame"].value;
+                if (x=="") {
+                alert("name must be failed out");
+                return false;
+                }
+            }  
+        </script>
+        <body bgcolor="pink"></body>
+    </head>
+    <body>
+        <form name="my form"
+        action="/action_page.php"
+        onsubmit="return validateform()"
+        method="post">
+            email:<input type="text" name="email"placeholder="@gmail.com"><br>
+            username:<input type="text"name="nusername"placeholder="silver@2110"><br>
+            password:<input type="password" name="username"placeholder="********"><br>
+            <input type="button" value="ok">
+            <input type="button" value="cancel"><br>
+            <input type="button" value="text background color to body" onclick="bodybgchangetext()"/>
+            <input type="color"id="cp" onchange="colorpickerbodybg()">
+                </form>
+                </body>
+                </html>
+            </HTML>
